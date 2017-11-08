@@ -1,0 +1,28 @@
+{
+  "name": "nodebb-plugin-emailer-smtp-complete",
+  "version": "1.0.1",
+  "description": "Plugin for NodeBB allowing you to send e-mail via SMTP with TLS compliance.",
+  "main": "index.js",
+  "scripts": {
+    "test": "testing!"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+git@github.com:BonnierNews/bbm-ul-nodebb-emailer-smtp.git"
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "emailer",
+    "mail",
+    "smtp"
+  ],
+  "homepage": "https://github.com/BonnierNews/bbm-ul-nodebb-emailer-smtp/blob/master/README.md",
+  "dependencies": {
+    "nodemailer": "~2.7.0",
+    "path": "~0.12.7"
+  },
+  "nbbpm": {
+    "compatibility": "^1.1.2"
+  }
+}
